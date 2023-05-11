@@ -12,3 +12,5 @@
 > - klik import pada pojok kanan atas
 > - lalu pilih file `pesilat-biodata.postman_collection.json`
 > - lalu buka posman collectionnya dan hit endpointnya satu persatu
+
+## Jika ada yang salah mohon informasikan pada laman issues berikut. [Laman issues](https://github.com/MangEs23/tugas-expressJS/issues)
