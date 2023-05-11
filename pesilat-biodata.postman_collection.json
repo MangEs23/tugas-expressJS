@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "f0459da0-5e81-4cb3-85d7-b9c53dd6c1a9",
+		"name": "pesilat-biodata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "using POST method and body",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "atang",
+							"type": "default"
+						},
+						{
+							"key": "tempat_lahir",
+							"value": "Ciamis",
+							"type": "default"
+						},
+						{
+							"key": "tanggal_lahir",
+							"value": "23 Januari 2004",
+							"type": "default"
+						},
+						{
+							"key": "alamat",
+							"value": "Ciamis",
+							"type": "default"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9898/biodata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9898",
+					"path": [
+						"biodata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "using GET method and query params",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9898/biodata?nama=atang&tempat_lahir=Ciamis&tanggal_lahir=23 Januari 2004&alamat=Ciamis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9898",
+					"path": [
+						"biodata"
+					],
+					"query": [
+						{
+							"key": "nama",
+							"value": "atang"
+						},
+						{
+							"key": "tempat_lahir",
+							"value": "Ciamis"
+						},
+						{
+							"key": "tanggal_lahir",
+							"value": "23 Januari 2004"
+						},
+						{
+							"key": "alamat",
+							"value": "Ciamis"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
