@@ -5,7 +5,7 @@
 > - buka repositori ini
 > - ubah file `.env.example` menjadi `.env`
 > - buka terminal pada repositori ini
-> - jalankan perintah `npm install` jika sudah lalu jalankan perintah `npm start` maka server akan ada informasi server sedang berjalan
+> - jalankan perintah `npm install` jika sudah, lalu jalankan perintah `npm start` maka server akan ada informasi server sedang berjalan
 
 
 ## Cara mengetes
