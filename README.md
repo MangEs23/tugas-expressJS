@@ -1,7 +1,7 @@
 # tugas-expressJS
 
 ## Cara menjalankan
-> - Download Repositori ini
+> - Download atau clone Repositori ini
 > - buka repositori ini
 > - ubah file **.env.example** menjadi **.env**
 > - buka terminal pada repositori ini
